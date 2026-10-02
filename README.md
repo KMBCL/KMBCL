@@ -8,7 +8,7 @@ Découverte du scrapping. Premier échange avec un autre professionnel sur le st
 
 Projet complet de gestion de tournoi d'échecs. Focus sur SRP et les classes. 
 
-### Projet P6
+### [Projet P6](https://github.com/KMBCL/P6)
 
 Projet interface "streaming". Premiers essais avec JS et CSS responsive.
 
