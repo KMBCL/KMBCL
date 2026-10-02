@@ -1,34 +1,57 @@
-## Projets de formation (OpenClassRooms):
+## Projets de formation — OpenClassrooms
 
-### Projet P2:
-blabla
+### [Projet P2](https://github.com/KMBCL/P2)
 
-### Projet P4:
-blabla
+Découverte du scrapping. Premier échange avec un autre professionnel sur le style et la conception du code.
 
-### Projet P6:
-blabla
+### [Projet P4](https://github.com/KMBCL/P4)
 
-## Projets professionels (en cours, en entreprise):
+Projet complet de gestion de tournoi d'échecs. Focus sur SRP et les classes. 
+
+### Projet P6
+
+Projet interface "streaming". Premiers essais avec JS et CSS responsive.
+
+## Projets professionnels
 
 ### Logiciel de gestion de données
-Ce projet d'entreprise consiste à informatiser une grande partie des données "papier" et centraliser les données d'exploitation.
-Le logiciel est conforme ALCOA, ALCOA+ et GMP
 
-Le logiciel se présente sous forme d'une interface WEB privée, hébergée sur un serveur interne et permet la saisie et l'exploitation des données d'entreprise.
-Le coeur du projet est la traçabilité et la conservation des transitions d'états des données.
+Conception d’une application web interne destinée à centraliser et dématérialiser une partie des données d’exploitation de l’entreprise.
 
-Le projet est multi-modules, s'appuyant sur un noyau commun.
+Le logiciel est conçu pour répondre à des exigences fortes de traçabilité, d’intégrité et de conservation des données, notamment dans un contexte réglementé basé sur les principes ALCOA, ALCOA+ et GMP.
 
-### Logiciel de pilotage agentique pour le développement d'autres logiciels
-L'IA agentique est un vrai plus pour le développement de fonctionnalité ou la correction de bugs.
-Cependant devant le volume produit, il est difficile de s'y retrouver et d'assurer la maitrise des livrables.
+L’application est hébergée sur l’infrastructure interne de l’entreprise et permet la saisie, la consultation et l’exploitation de données métier.
 
-Le logiciel permet donc d'utiliser l'IA de manière systémique, bornée, avec des contrôles et invariants, pour des résultats prédictibles et reproductibles.
+L’architecture repose sur plusieurs modules fonctionnels partageant un socle commun.
 
-Les étapes de traitement d'une tâche sont séquencées, verrouillées par décision humaine.
+**Principaux enjeux :**
+- intégrité et traçabilité des données ;
+- gestion des transitions d’état ;
+- historisation des modifications ;
+- séparation des responsabilités ;
+- architecture modulaire et maintenable.
 
-Le logiciel peut travailler de manière isolé sur le projet cible, répliquer les données, également de manière isolé pour permettre la correction ou le développement sur un jeu "réel".
+> Projet professionnel en cours. Le code source, les données et les détails d’architecture ne sont pas publics.
 
-Pour les suites de tests lourdes, le logiciel peut créer une "carte" des dépendances et des tests, afin de ne dérouler que les tests utiles et nécessaires à chacune des étapes.
+### Logiciel de pilotage d’agents IA pour le développement logiciel
+
+Conception d’une plateforme destinée à encadrer l’utilisation d’agents IA dans des workflows de développement logiciel.
+
+L’objectif est de rendre leur utilisation plus structurée et contrôlable, notamment lorsque le volume de modifications produites devient important.
+
+La plateforme organise les différentes étapes d’une tâche de développement — préparation, exécution, contrôles et validation — selon un workflow défini, intégrant des points de décision humaine.
+
+Elle permet également de travailler sur des environnements isolés afin de limiter les risques sur le projet cible et de conserver une séparation claire entre le travail en cours et les versions de référence.
+
+Une attention particulière est portée à la stratégie de tests : le système peut exploiter les relations entre composants et tests afin d’adapter les vérifications au périmètre réellement modifié.
+
+**Principaux enjeux :**
+- orchestration d’agents IA ;
+- contrôle et validation des modifications ;
+- isolation des environnements de travail ;
+- reproductibilité des processus ;
+- automatisation des tests ;
+- architecture de workflows complexes.
+
+> Projet professionnel en cours. Seuls les principes généraux sont présentés ici ; les mécanismes internes et le code source ne sont pas publics.
 
